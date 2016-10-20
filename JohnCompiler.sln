@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnCompiler", "JohnCompiler\JohnCompiler.csproj", "{D77CBB27-E667-4CC4-B97F-ADAAE46BF7E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnCompilerTests", "JohnCompilerTests\JohnCompilerTests.csproj", "{B665847C-8CC8-4D4C-B57C-F8E6BAEAEE3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{33A16A3E-D752-423F-92E6-CAB8E8F2522E}"
+	ProjectSection(SolutionItems) = preProject
+		JohnCompiler\bin\Debug\test1.txt = JohnCompiler\bin\Debug\test1.txt
+		JohnCompiler\bin\Debug\test2.txt = JohnCompiler\bin\Debug\test2.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D77CBB27-E667-4CC4-B97F-ADAAE46BF7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77CBB27-E667-4CC4-B97F-ADAAE46BF7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77CBB27-E667-4CC4-B97F-ADAAE46BF7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77CBB27-E667-4CC4-B97F-ADAAE46BF7E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B665847C-8CC8-4D4C-B57C-F8E6BAEAEE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B665847C-8CC8-4D4C-B57C-F8E6BAEAEE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B665847C-8CC8-4D4C-B57C-F8E6BAEAEE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B665847C-8CC8-4D4C-B57C-F8E6BAEAEE3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
