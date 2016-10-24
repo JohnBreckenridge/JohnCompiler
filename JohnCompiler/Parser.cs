@@ -376,6 +376,7 @@ namespace JohnCompiler
             if(token.type == TokenTypes.ID)
             {
                 factor.value = token.value;
+                factor.type = TokenTypes.ID;
                 Match(TokenTypes.ID);
                 if(token.type == TokenTypes.LPAR)
                 {
@@ -400,6 +401,7 @@ namespace JohnCompiler
             {
                 factor.value = token.value;
                 Match(TokenTypes.NUM);
+                factor.type = TokenTypes.NUM;
             }
             else if (token.type == TokenTypes.LPAR)
             {

@@ -13,7 +13,7 @@ namespace JohnCompiler
     public class ProgramNode : Node
     {
         //declarations node, list of statementnodes
-        string id;
+        public string id;
         public DeclarationsNode Declarations;
         public List<StatementNode> StatementList = new List<StatementNode>();
         public List<SubProgramNode> MethodList = new List<SubProgramNode>();
@@ -345,6 +345,7 @@ namespace JohnCompiler
         public List<ExpressionNode> expressionList;
         public ExpressionNode parExpression;
         public bool not = false;
+        public TokenTypes type;
 
         public FactorNode()
         {

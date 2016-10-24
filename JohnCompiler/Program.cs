@@ -11,13 +11,15 @@ namespace JohnCompiler
     {
         static void Main(string[] args)
         {
-            string file = File.ReadAllText("test1.txt");
+            string file = File.ReadAllText(args[0]);
             file = Sanitize(file);
 
             Scanner scanner = new Scanner(file);
             Parser parser = new Parser(scanner);
             Console.Write(parser.program.ToString());
-
+            Generator generator = new Generator(parser.program);
+            string output = generator.Generate();
+            File.WriteAllText(args[1], output);
             //parser.program is final output in form of a ProgramNode
         }
         public static string Sanitize(string input)
